@@ -12,7 +12,7 @@ from PIL import Image
 scriptDIR = os.path.dirname(os.path.abspath(__file__)) if '__file__' in globals() else os.getcwd()
 
 # 出力ディレクトリを定義
-OUTPUT_DIR = "{scriptDIR}/img"
+OUTPUT_DIR = f"{scriptDIR}/img"
 
 # ドラッグされたファイルのリストを保持
 dropped_file_list = []
